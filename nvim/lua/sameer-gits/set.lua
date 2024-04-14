@@ -30,3 +30,5 @@ vim.opt.isfname:append("@-@")
 vim.opt.updatetime = 50
 
 vim.opt.winbar = "%=%m Filename: %f"
+
+vim.opt.colorcolumn = "100"
