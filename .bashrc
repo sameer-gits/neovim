@@ -123,7 +123,7 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 
-alias home='cd /media/sameer/Home1/"My Projects"'
+alias home='cd /media/sameer/Home1/"My_Projects"'
 alias vimrc='cd  ~/.config/nvim &&  nvim .'
 alias clr='clear'
 
@@ -132,3 +132,4 @@ alias vim.='nvim .'
 alias bashrc='nvim ~/.bashrc'
 . "$HOME/.cargo/env"
 eval "$(oh-my-posh init bash --config ~/catppuccin_mocha.omp.json)"
+export PATH=$PATH:/home/sameer/go/bin
